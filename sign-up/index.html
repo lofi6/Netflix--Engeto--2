@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div class="form-container">
+      <form>
+        <input type="text" id="name" placeholder="Křestní jméno" required />
+        <input type="email" id="email" placeholder="Příjmení" required />
+        <input
+          type="text"
+          id="phone"
+          placeholder="Přihlašovací email"
+          required
+        />
+        <input
+          type="password"
+          id="pass1"
+          placeholder="Vaše heslo"
+          autocomplete="off"
+          required
+        />
+        <input
+          type="password"
+          id="pass2"
+          placeholder="Vaše heslo znovu"
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Odeslat</button>
+      </form>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
